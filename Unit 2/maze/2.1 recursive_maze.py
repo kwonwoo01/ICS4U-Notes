@@ -95,7 +95,7 @@ def main():
 
     # Store the maze in a 2D list
     global maze
-    file = open("MazeSearchFile.txt", "r")
+    file = open("./Unit 2/maze/MazeSearchFile.txt", "r")
     while True:
         line = file.readline()
         if line == "":
